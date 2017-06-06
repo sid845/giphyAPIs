@@ -8,7 +8,7 @@ function buttons()
     a.addClass("animal");
     a.attr("data-name",buttons[i]);
     a.text(buttons[i]);
-    $()"#animals").append(a);
+    $("#animals").append(a);
   }
 }
 $("#add-animal").on("click", function(event) {
@@ -17,3 +17,4 @@ $("#add-animal").on("click", function(event) {
   animals.push(animal);
   buttons();
 });
+buttons();
