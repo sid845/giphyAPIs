@@ -36,7 +36,8 @@ $("button").on("click", function()
         animalImage.attr("src", results[i].images.fixed_height.url);
         animalDiv.append(p);
         animalDiv.append(animalImage);
-        $("#images").prepend(animalDiv);  
+        $("#images").prepend(animalDiv);
     }
 
-}
+});
+});
